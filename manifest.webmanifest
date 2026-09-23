@@ -1,0 +1,17 @@
+{
+  "name": "JJB Moutiers",
+  "short_name": "JJB Moutiers",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "assets/logo-jjb-moutiers.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
