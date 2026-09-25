@@ -76,16 +76,20 @@
       max-width:480px;
     }
 
-    .news-widget{
-      min-width:0;
-    }
+    .news-poster{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
-    .news-widget iframe{
-      display:block;
-      width:100%;
-      height:680px;
-      border:0;
-    }
+.news-poster img{
+  display:block;
+  width:100%;
+  max-width:430px;
+  height:auto;
+  border-radius:4px;
+  box-shadow:0 18px 45px rgba(0,0,0,.35);
+}
 
     @media(max-width:800px){
       .news-page{
@@ -98,9 +102,9 @@
         padding:28px 20px;
       }
 
-      .news-widget iframe{
-        height:760px;
-      }
+      .news-poster img{
+  max-width:100%;
+}
     }
   </style>
 </head>
