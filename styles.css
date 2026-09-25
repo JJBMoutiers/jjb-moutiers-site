@@ -44,7 +44,7 @@ h1,h2,h3,p{margin-top:0}
 .hero-actions{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:52px;padding:0 22px;border-radius:3px;font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;letter-spacing:.04em;text-transform:uppercase;transition:.2s ease;cursor:pointer}.btn span{font-family:Arial,Helvetica,sans-serif;font-size:1.1rem}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--accent);color:#fff;box-shadow:0 12px 28px rgba(239,47,11,.24)}.btn-primary:hover{background:#ff3a12}.btn-ghost{border:1px solid rgba(255,255,255,.65);background:rgba(0,0,0,.25)}.btn-ghost:hover{background:#fff;color:#000}
 .hero-news{
   display:inline-block;
-  margin-top:18px;
+  margin-top:14px;
   color:#fff;
   font-size:.86rem;
   font-weight:800;
