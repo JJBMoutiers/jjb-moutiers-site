@@ -161,6 +161,16 @@ h1,h2,h3,p{margin-top:0}
   .brand small{display:none}.brand strong{font-size:1rem}.hero-content{padding-top:205px}.hero-mantra{font-size:.66rem}.pillar-grid{grid-template-columns:1fr}.pillar-grid article{border-bottom:1px solid var(--line)}.pillar-grid article:before{display:none!important}.pillar-grid article:last-child{border-bottom:0}.photo-triptych{grid-template-columns:1fr}.photo-triptych figure,.photo-triptych figure:nth-child(3){grid-column:auto;height:300px}.schedule-row{grid-template-columns:1fr}.schedule-row time{grid-column:1;grid-row:auto;text-align:left;color:var(--accent);margin-top:2px}.competition-gallery{grid-auto-rows:250px}.mobile-cta{font-size:.86rem}
 }
 
+/* Carte de soutien : reprend les couleurs et les widgets du site. */
+.support-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,380px);align-items:center;gap:40px;margin-top:48px;padding:28px;background:var(--ink-2);color:var(--white);border-top:3px solid var(--accent)}
+.support-card .section-tag{color:var(--white)}
+.support-card h2{font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;text-transform:uppercase;letter-spacing:.025em;font-size:2rem;line-height:1.1;margin:0 0 14px}
+.support-copy>p:last-child{margin:0;color:#d4d4d4}
+.support-card .helloasso-widget{margin-top:0;max-width:none;min-width:0}
+@media (max-width:680px){
+  .support-card{grid-template-columns:minmax(0,1fr);gap:24px;margin-top:42px;padding:24px}
+}
+
 /* V2.2 test - robustesse widgets */
 .widget-fallback{margin:.5rem 0 0;font-size:.78rem;line-height:1.4;opacity:.78}
 .widget-fallback a{text-decoration:underline;text-underline-offset:3px}
