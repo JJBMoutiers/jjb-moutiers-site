@@ -163,6 +163,15 @@ h1,h2,h3,p{margin-top:0}
 
 .schedule-note{margin:16px 0 0;color:var(--muted);font-size:.9rem}
 
+/* Affiliation BJJ Globetrotters : badge dans ses proportions d’origine. */
+.globetrotters-affiliation{max-width:380px;margin-top:24px;padding-top:24px;border-top:1px solid rgba(0,0,0,.1)}
+.globetrotters-badge{display:block;max-width:300px;margin-bottom:16px}
+.globetrotters-badge img{width:100%;height:auto}
+.globetrotters-affiliation p{margin:0 0 10px;color:#292929;font-size:.86rem;line-height:1.5}
+.globetrotters-affiliation p[lang="en"]{color:#555}
+.globetrotters-link{font-size:.82rem;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.globetrotters-link:hover{color:var(--accent)}
+
 /* Carte de soutien : reprend les couleurs et les widgets du site. */
 .support-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,380px);align-items:center;gap:40px;margin-top:48px;padding:28px;background:var(--ink-2);color:var(--white);border-top:3px solid var(--accent)}
 .support-card .section-tag{color:var(--white)}
