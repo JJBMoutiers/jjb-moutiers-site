@@ -10,16 +10,18 @@
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://www.jjbmoutiers.fr/actualites.html">
 
-  <link rel="icon" href="assets/logo-jjb-moutiers.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
   <link rel="stylesheet" href="styles.css">
 
   <style>
     .news-page{
-      background:#f4f1ec;
+      background:var(--paper);
       color:#111;
       min-height:100vh;
       padding:70px 0 90px;
     }
+
+    .news-header .section-tag{color:var(--accent)}
 
     .news-header{
       max-width:850px;
@@ -60,7 +62,7 @@
     }
 
     .news-card .section-tag{
-      color:#ef2f0b;
+      color:var(--accent-light);
     }
 
     .news-card h2{
